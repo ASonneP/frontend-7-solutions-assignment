@@ -35,3 +35,8 @@ To run tests, run the following command
 ```bash
   npm run test
 ```
+
+## Test Results
+
+![Test Results](https://raw.githubusercontent.com/ASonneP/frontend-7-solutions-assignment/main/img/test_result.png)
+
