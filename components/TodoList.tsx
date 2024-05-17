@@ -22,8 +22,9 @@ const transformData = (
     id: (index + 1).toString(),
   }));
 };
+const InitialData: any = initialData;
 
-const initialItems: Item[] = transformData(initialData);
+const initialItems: Item[] = transformData(InitialData);
 
 const TodoList: React.FC = () => {
   const [items, setItems] = useState<Item[]>(initialItems);

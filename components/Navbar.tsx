@@ -23,7 +23,7 @@ export default function Navbar() {
   const router = useRouter();
   const [isMobile, setIsMobile] = useState(false);
 
-  const isActive = (route) => {
+  const isActive = (route: any) => {
     return route === router.pathname;
   };
 
